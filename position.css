@@ -1,0 +1,55 @@
+body{
+	background-color: grey;
+}
+
+#leftnav{
+	position: fixed;
+	top: 20px;
+	border: 1.5px dashed black;
+	background-color: white;
+	padding: 10px;
+	padding-top: 0px;
+}
+
+#rightnav{
+	position: fixed;
+	margin-left: calc(100% - 210px);
+	margin-right: 20px;
+	border: 1.5px dashed black;
+	background-color: white;
+	top: 20px;
+	padding: 10px;
+	padding-top: 0px;
+}
+
+.content{
+	position: relative;
+	background-color: white;
+	border-left: 3px solid black;
+	margin-top: 20px;
+	left: 200px;
+	margin-right: 420px;
+	padding: 10px;
+	padding-top: 1px;
+}
+
+h1{
+	color: red;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+h2{
+	color: green;
+	font-family: serif;
+	font-weight: bold;
+}
+
+a{
+	text-decoration: none;
+	color: orange;
+}
+
+a:hover{
+	background-color: grey;
+}
